@@ -1,7 +1,6 @@
 
 # 🏦 Bank Customer Churn Prediction
 
-![Churn Prediction Banner](https://via.placeholder.com/1200x400.png)
 
 ## 🚀 Introduction
 
@@ -21,35 +20,35 @@ Ensure the following are installed:
 
 ### Steps
 1. **Clone the repository:**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/saadsohail05/bank-churn-prediction.git
    cd bank-churn-prediction
-   \`\`\`
+   ```
 
 2. **Create a virtual environment (optional but recommended):**
-   \`\`\`bash
+   ```bash
    python -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
-   \`\`\`
+   ```
 
 3. **Install dependencies:**
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 4. **Ensure the following files are present:**
-   - \`model.h5\` (Pre-trained ANN model)
-   - \`labelencoder.pkl\` (Label Encoder for Gender)
-   - \`onehotencoder.pkl\` (One-Hot Encoder for Geography)
-   - \`scaler.pkl\` (Scaler for data normalization)
+   - `model.h5` (Pre-trained ANN model)
+   - `labelencoder.pkl` (Label Encoder for Gender)
+   - `onehotencoder.pkl` (One-Hot Encoder for Geography)
+   - `scaler.pkl` (Scaler for data normalization)
 
 ## 💻 Usage
 
 To launch the application and start predicting customer churn:
 
-\`\`\`bash
+```bash
 streamlit run app.py
-\`\`\`
+```
 
 You’ll be directed to a local web page where you can input customer data and receive predictions.
 
